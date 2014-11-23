@@ -1,0 +1,6 @@
+mediainfo = Section *
+  Section = Name Property *
+  Name = #"[^:\n]+" <"\n">
+  Property = Key <":"> Value <#"\n+">
+  Key = #"[^:\n]+"
+  Value = #"[^\n]+"
